@@ -10,10 +10,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class App {
+public class ProduceServiceCompute {
 
     public static void main(String[] args) {
 
-        new SpringApplicationBuilder(App.class).web(true).run(args);
+        new SpringApplicationBuilder(ProduceServiceCompute.class).web(true).run(args);
     }
 }
